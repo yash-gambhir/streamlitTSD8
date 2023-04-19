@@ -11,5 +11,4 @@ num3 = st.number_input("Enter the third number")
 
 if st.button("Find"):
     result = find_largest_num(num1, num2, num3)
-    st.success(f"The largest number is {result}")
-    print("thank you for using the app!!")
+    st.success(f"The largest number is {result}.\n Thank you for using the app.")
